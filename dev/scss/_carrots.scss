@@ -1,0 +1,24 @@
+//CARROTS...lol
+.nav-caret {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 7px;
+  width: 10px;
+  left: 120px;
+  top: 3px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-caret-down {
+  @extend .nav-caret;
+  
+  background: url(/img/caret_arrow.png) 0 0;
+}
+
+.nav-caret-up {
+  @extend .nav-caret;
+  
+  background: url(/img/caret_arrow.png) 0 7px;
+}
+

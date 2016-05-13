@@ -1,0 +1,22 @@
+//RESPONSIVE
+
+//tablet breakpoint
+@media (max-width: 1200px) {
+    #util-nav-utils {
+        position: absolute;
+        display: none;
+    }
+}
+
+//mobile breakpoint
+@media (max-width: 768px) {
+
+    #primary-nav {
+        display: none;
+    }
+
+
+    .img-responsive {
+        border: none;
+    }
+}
